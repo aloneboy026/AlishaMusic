@@ -38,7 +38,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ 🥺",
+                text="🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ʏᴏᴜ ɢᴇʏ 🥺",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
@@ -55,7 +55,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{config.UPSTREAM_REPO}"
+                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{https://te.legra.ph/file/ddcb156251c1624d09253.mp4}"
                 )
         ],
      ]
