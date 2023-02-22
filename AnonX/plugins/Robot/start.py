@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEGL5ljVmUMMmd9clX__H1FjGSJ-70nhAAC7gIAAkTXmFaKD-wSnz8zsioE")
+            await message.reply_sticker("CAACAgUAAx0CaAQ8UAACM8Bj9hOqeaGfSqE-LE2-PHO9ow2uugACvggAAtCZ6FQn3AcYoU6vgC4E")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -140,23 +140,23 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-😲**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**😲
+🥺**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**🥺
 
-📌 **ᴛɪᴛʟᴇ:** {title}
+💓 **ᴛɪᴛʟᴇ:** {title}
 
-⏳ **ᴅᴜʀᴀᴛɪᴏɴ:** {duration} ᴍɪɴᴜᴛᴇs
-👀 **ᴠɪᴇᴡs:** `{views}`
-⏰ **ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ:** {published}
+👀 **ᴅᴜʀᴀᴛɪᴏɴ:** {duration} ᴍɪɴᴜᴛᴇs
+👻 **ᴠɪᴇᴡs:** `{views}`
+😂 **ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ:** {published}
 🎥 **ᴄʜᴀɴɴᴇʟ:** {channel}
-📎 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
-🔗 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
+😈 **ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
+🔥 **ʟɪɴᴋ:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 
-💖 sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}"""
+🙈 sᴇᴀʀᴄʜ ᴩᴏᴡᴇʀᴇᴅ ʙʏ {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
+                            text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{https://t.me/mondo_lover}"
                         ),
                         InlineKeyboardButton(
                             text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/team_comrades"
@@ -188,7 +188,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAxkBAAEGL6BjVmVVFs2wc-a3YXGyFlSVdM4Y2wACIQIAAqcwGFTIeW_r6w2-0ioE")
+                await message.reply_sticker("CAACAgUAAx0CaAQ8UAACM8Bj9hOqeaGfSqE-LE2-PHO9ow2uugACvggAAtCZ6FQn3AcYoU6vgC4E")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
